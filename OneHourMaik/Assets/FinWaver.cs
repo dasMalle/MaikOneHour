@@ -24,8 +24,8 @@ public class FinWaver : MonoBehaviour {
 			rightFin.GetComponent<Animation> ().Play();
 		}
 
-		if (Random.Range (0, 21) == 10 && !Source.isPlaying) {
-			Source.PlayDelayed (44100);
+		if (Random.Range(0, 100) == 42 && !Source.isPlaying) {
+			Source.PlayOneShot (whaleCry);
 		}
 	}
 
