@@ -21,7 +21,7 @@ public class FinWaver : MonoBehaviour {
 			leftFin.GetComponent<Animation> ().Play ();
 		}
 		if(Input.GetKeyDown(KeyCode.L)){
-			rightFin.GetComponent<Animation> ().Play ();
+			rightFin.GetComponent<Animation> ().Play();
 		}
 
 			if(Random.Range(0,4) == 2)
